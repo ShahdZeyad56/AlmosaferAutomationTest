@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
@@ -167,4 +168,11 @@ public class FirstTest extends Parameters {
         // Assert that the actual results match the expected results
         Assert.assertEquals(ActualResult, ExpectedResults);
     }
+    
+    @AfterTest
+	public void AfterTheTestEnd() throws InterruptedException {
+		Thread.sleep(4000);
+		driver.close();
+
+	}
 }

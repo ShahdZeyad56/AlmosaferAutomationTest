@@ -2,35 +2,39 @@
 <testng-results ignored="3" total="8" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-27T08:22:28 EET" name="Default suite" finished-at="2025-01-27T08:23:11 EET" duration-ms="42822">
+  <suite started-at="2025-01-27T08:28:55 EET" name="Default suite" finished-at="2025-01-27T08:29:40 EET" duration-ms="45361">
     <groups>
     </groups>
-    <test started-at="2025-01-27T08:22:28 EET" name="Default test" finished-at="2025-01-27T08:23:11 EET" duration-ms="42822">
+    <test started-at="2025-01-27T08:28:55 EET" name="Default test" finished-at="2025-01-27T08:29:40 EET" duration-ms="45361">
       <class name="AlmosaferWebsite.FirstTest">
-        <test-method is-config="true" signature="mySetup()[pri:0, instance:AlmosaferWebsite.FirstTest@366ac49b]" started-at="2025-01-27T08:22:28 EET" name="mySetup" finished-at="2025-01-27T08:22:33 EET" duration-ms="5371" status="PASS">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:AlmosaferWebsite.FirstTest@6ad59d92]" started-at="2025-01-27T08:28:55 EET" name="mySetup" finished-at="2025-01-27T08:29:00 EET" duration-ms="5455" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mySetup -->
-        <test-method signature="QitafLogo()[pri:4, instance:AlmosaferWebsite.FirstTest@366ac49b]" started-at="2025-01-27T08:22:33 EET" name="QitafLogo" description="Qitaf Logo is displayed in footer" finished-at="2025-01-27T08:22:34 EET" duration-ms="262" status="PASS">
+        <test-method signature="QitafLogo()[pri:4, instance:AlmosaferWebsite.FirstTest@6ad59d92]" started-at="2025-01-27T08:29:01 EET" name="QitafLogo" description="Qitaf Logo is displayed in footer" finished-at="2025-01-27T08:29:02 EET" duration-ms="1418" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QitafLogo -->
-        <test-method signature="CheckHotelTabIsNotSelected()[pri:5, instance:AlmosaferWebsite.FirstTest@366ac49b]" started-at="2025-01-27T08:22:34 EET" name="CheckHotelTabIsNotSelected" finished-at="2025-01-27T08:22:34 EET" duration-ms="41" status="PASS">
+        <test-method signature="CheckHotelTabIsNotSelected()[pri:5, instance:AlmosaferWebsite.FirstTest@6ad59d92]" started-at="2025-01-27T08:29:02 EET" name="CheckHotelTabIsNotSelected" finished-at="2025-01-27T08:29:03 EET" duration-ms="532" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckHotelTabIsNotSelected -->
-        <test-method signature="CheckDepatureDate()[pri:6, instance:AlmosaferWebsite.FirstTest@366ac49b]" started-at="2025-01-27T08:22:34 EET" name="CheckDepatureDate" finished-at="2025-01-27T08:22:34 EET" duration-ms="59" status="PASS">
+        <test-method signature="CheckDepatureDate()[pri:6, instance:AlmosaferWebsite.FirstTest@6ad59d92]" started-at="2025-01-27T08:29:03 EET" name="CheckDepatureDate" finished-at="2025-01-27T08:29:03 EET" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckDepatureDate -->
-        <test-method signature="CheckReturnDate()[pri:7, instance:AlmosaferWebsite.FirstTest@366ac49b]" started-at="2025-01-27T08:22:34 EET" name="CheckReturnDate" finished-at="2025-01-27T08:22:34 EET" duration-ms="39" status="PASS">
+        <test-method signature="CheckReturnDate()[pri:7, instance:AlmosaferWebsite.FirstTest@6ad59d92]" started-at="2025-01-27T08:29:03 EET" name="CheckReturnDate" finished-at="2025-01-27T08:29:03 EET" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckReturnDate -->
-        <test-method signature="RandomlyChangeWebSiteLanguage()[pri:8, instance:AlmosaferWebsite.FirstTest@366ac49b]" started-at="2025-01-27T08:22:34 EET" name="RandomlyChangeWebSiteLanguage" finished-at="2025-01-27T08:23:11 EET" duration-ms="36959" status="PASS">
+        <test-method signature="RandomlyChangeWebSiteLanguage()[pri:8, instance:AlmosaferWebsite.FirstTest@6ad59d92]" started-at="2025-01-27T08:29:03 EET" name="RandomlyChangeWebSiteLanguage" finished-at="2025-01-27T08:29:36 EET" duration-ms="33456" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RandomlyChangeWebSiteLanguage -->
+        <test-method is-config="true" signature="AfterTheTestEnd()[pri:0, instance:AlmosaferWebsite.FirstTest@6ad59d92]" started-at="2025-01-27T08:29:36 EET" name="AfterTheTestEnd" finished-at="2025-01-27T08:29:40 EET" duration-ms="4204" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterTheTestEnd -->
       </class> <!-- AlmosaferWebsite.FirstTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
